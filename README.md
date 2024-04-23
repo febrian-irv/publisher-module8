@@ -5,3 +5,7 @@ Terdapat 5 data yang dikirimkan oleh publisher program. Pengiriman data terlihat
 
 2. The url of: “amqp://guest:guest@localhost:5672” is the same as in the subscriber program, what does it mean?
 Kesamaan ini mengartikan bahwa untuk program publisher dan program publisher terkoneksi pada instance amqp yang sama. Hal tersebut menunjukkan antara program publisher dan subscriber dapat saling berkomunikasi. Dari fakta tersebut maka dapat terlihat dari source code bahwa ketika program publisher membuat event 'user_created' maka akan dilisten dan mentrigger program subscriber untuk melakukan event handling pada program tersebut.
+
+# Preparing message broker (RabbitMQ)
+#### Screen of running rabbit:
+![](msc/running_rabbit.png)
