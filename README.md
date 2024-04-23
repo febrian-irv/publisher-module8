@@ -16,3 +16,7 @@ Kesamaan ini mengartikan bahwa untuk program publisher dan program publisher ter
 2. Subscriber console:
 ![](msc/subscriber.png)
 Pada gambar diatas publisher melakukan run program dengan mempublish event pada url dan port yang telah ditentukan pada source code dengan nama user_created berisi message mengenai user yang dibuat. Setelah itu, pada subscriber yang telah di run terlebih dahulu telah melakukan listening pada url dan port sehingga ketika terdapat kiriman data pada port tersebut maka subscriber melakukan event handling. Dalam kasus ini, subscriber melakukan event handling pada user_created dengan melakukan print message yang telah dikirimkan.
+
+#### Monitoring chart based on publisher.
+![](msc/monitor_chart.png)
+Spike pada chart menunjukkan rates pengiriman data dari program publisher.
